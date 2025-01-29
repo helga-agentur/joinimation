@@ -31,7 +31,7 @@ Adds classes to HTML elements when they become visible (as the user scrolls thro
 
 1. Import and setup Joinimation
     ```javascript
-    import Joinimation from '@joinbox/joinimation';
+    import Joinimation from '@helga-agency/joinimation';
     const joinimation = new Joinimation();
     // Animate all elements with the relevant data attributes; use a selector different than
     // 'body' to only animate their child elements
