@@ -7,9 +7,6 @@
     "files": [
       "**/*.unit.mjs",
       "**/*.integration.mjs"
-    ],
-    "require": [
-      "esm"
     ]
   },
   "scripts": {
@@ -19,16 +16,10 @@
   "author": "Felix Steiner <felix@helga.ch>",
   "license": "ISC",
   "devDependencies": {
-    "@helga-agency/eslint-config-joinbox": "^2.1.1",
-    "ava": "^4.0.1",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.3",
-    "babel-plugin-syntax-class-properties": "^6.13.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "esm": "^3.2.25",
-    "jsdom": "^19.0.0",
-    "parcel": "^2.2.0"
+    "@helga-agency/eslint-config-joinbox": "^2.1.2",
+    "ava": "^6.4.1",
+    "jsdom": "^27.2.0",
+    "parcel": "^2.16.1"
   },
   "dependencies": {
     "events": "^3.3.0"
