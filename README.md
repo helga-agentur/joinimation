@@ -1,4 +1,4 @@
-# Joinimation
+# Peekaboo
 
 Adds classes to HTML elements when they become visible (as the user scrolls through a page).
 
@@ -29,13 +29,13 @@ Adds classes to HTML elements when they become visible (as the user scrolls thro
 
 # Usage
 
-1. Import and setup Joinimation
+1. Import and setup Peekaboo
     ```javascript
-    import Joinimation from '@joinbox/joinimation';
-    const joinimation = new Joinimation();
+    import Peekaboo from '@helga-agency/peekaboo';
+    const peekaboo = new Peekaboo();
     // Animate all elements with the relevant data attributes; use a selector different than
     // 'body' to only animate their child elements
-    joinimation.add(document.querySelector('body'));
+    peekaboo.add(document.querySelector('body'));
     ````
 
 2. Add the following attributes to all HTML elements that should get classes when they (or another
@@ -62,11 +62,11 @@ Adds classes to HTML elements when they become visible (as the user scrolls thro
       attribute values match exactly. Can be used in combination with `data-animation-delay` to
 
 3. If you need different transition settings (duration, timing function, delay) at the time when
-elements become visible (than e.g. when they are hovered later), initialize Joinimation with
-a class name that will only be added to the Joinimation elements while its initial transitions are 
+elements become visible (than e.g. when they are hovered later), initialize Peekaboo with
+a class name that will only be added to the Peekaboo elements while its initial transitions are 
 running:
 ```javascript
-    const joinimation = new Joinimation({ isTransitioningClassName: 'isTransitioning' });
+    const peekaboo = new Peekaboo({ isTransitioningClassName: 'isTransitioning' });
 ```
 
 

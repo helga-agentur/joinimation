@@ -1,4 +1,4 @@
-import Joinimation from '../../src/Joinimation.mjs';
+import Peekaboo from '../../src/Peekaboo.mjs';
 
 // Clone content
 /* global document */
@@ -11,5 +11,5 @@ for (let i = 0; i < 10; i++) {
     container.innerHTML += replaced;
 }
 
-const joinimation = new Joinimation({ isTransitioningClassName: 'is-transitioning' });
-joinimation.add(container);
+const peekaboo = new Peekaboo({ isTransitioningClassName: 'is-transitioning' });
+peekaboo.add(container);

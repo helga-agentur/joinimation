@@ -1,4 +1,4 @@
-import Joinimation from './Joinimation.mjs';
+import Peekaboo from './Peekaboo.mjs';
 
 /* global window */
-window.Joinimation = Joinimation;
+window.Peekaboo = Peekaboo;

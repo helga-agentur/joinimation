@@ -15,7 +15,7 @@ export default class IntersectionHandler {
      * @param {string} isTransitioningClassName      Name of class that is added to an element
      *                                               while it is transitioning; it is removed as
      *                                               soon as all initial transitions (that are
-     *                                               started at the same time as Joinimation adds
+     *                                               started at the same time as Peekaboo adds
      *                                               the visibleClass) are done running. Needed
      *                                               to have different timings, durations and
      *                                               delays for initial (scroll-based) transitions

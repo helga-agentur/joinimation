@@ -5,7 +5,7 @@ import AnimationElements from './AnimationElements.mjs';
 /**
  * Adds a class to an element as soon as it becomes visible
  */
-export default class Joinimation {
+export default class Peekaboo {
 
     constructor({ isTransitioningClassName } = {}) {
         this.animationElements = new AnimationElements();
